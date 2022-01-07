@@ -1,0 +1,132 @@
+a 
+ar
+ae
+arrr
+
+
+P
+PT
+PN
+aR
+AR,John Doe,EE,18
+AR,Jane Doe
+AR,Jane Doe,CS
+AR,Jane Doe,CS,2
+AR,Jane Doe,CS,3
+AR,John Doe,CS,25
+AR,John Doe,CS,-10
+AR,John Doe,CS,0
+AR,John Doe,CS,hi
+AR,John Doe,CS,24
+AR,John Doe,CS,24
+AR,John Doe,EE,24
+AR,John Doe,BA,24
+AR,John Doe,IT,24
+AR,Rob Harrison,it,0
+AR,Rob Harrison,ee,0
+AR,Rob Harrison,Ba,0
+AR,Rob Harrison,Cs,0
+AR,Rob Harrison,xx,0
+AR
+AN,Jane Doe,CS
+AN,Jane Doe,CS,2
+AN,Jane Doe,CS,3
+AN,John Doe,CS,25
+AN,John Doe,CS,-10
+AN,John Doe,CS,0
+AN,John Doe,CS,hi
+AN,John Doe,CS,24
+AN,John Doe,CS,24
+AN,John Doe,EE,24
+AN,John Doe,BA,24
+AN,John Doe,IT,24
+AN,Rob Harrison,it,0
+AN,Rob Harrison,ee,0
+AN,Rob Harrison,Ba,0
+AN,Rob Harrison,Cs,0
+AN,Rob Harrison,xx,0
+AN,Rob Harrison,ee,12
+AN,Rob Harrison,ee,12
+AN,Rob Harrison,It,12
+AN,Rob Harrison,ba,12
+P
+R,John Doe,it
+R,JOHN DOE,CS
+R,John Doe,CS
+R,Rob Harrison,BA
+R,Rob Harrison,BA
+
+AT,John Doe
+AT,John Doe,it,18
+AT,John Doe,it,18,NN
+AT,John Doe,it,18,NY
+AT,Rob Harrison,BA,9,ny
+AT,Rob Harrison,me,1,ct
+AT,Rob Harrison,me,-1,ct
+AT,Rob Harrison,me,25,ct
+AT,Rob Harrison,me,6,ct
+AT,Mary Johnson,BA,15,CT
+AT,Barry Young,EE,14,NY
+
+AI,Joshua Patel,CS
+AI,Joshua Patel,CS,12,true
+AI,Sunny Lin,ee,9,false
+AI,Sunny Lin,ee,2,false
+AI,Sunny Lin,ee,-1,false
+AI,Sunny Lin,ee,26,false
+AI,Sunny Lin,CS,XX,false
+AI,Sunny Lin,CS,12,false
+AI,Joshua Patel,me,20,false
+AI,Sunny Lin,BA,16,false
+C
+P
+C
+P
+T,Joshua Patel,ME
+T,Joshua Patel,ME,0
+T,Sunny Lin,CS,40000,2/1/2021
+T,Sunny Lin,CS,-40000,2/1/2021
+T,Sunny Lin,CS,10000,21/1/2021
+T,Sunny Lin,CS,10000,2/29/2021
+T,Sunny Lin,CS,10000,4/31/2021
+T,Sunny Lin,CS,10000,12/1/2021
+T,Sunny Lin,CS,10000,11/1/2020
+T,Sunny Lin,CS,10000,7/32/2021
+T,Sunny Lin,CS,5000.50,2/1/2021
+T,Rob Harrison,ba,11308.40,9/12/2021
+T,John Doe,ee,6612,8/30/2021
+T,Rob Harrison,it,10000,6/12/2021
+T,Rob Harrison,it,10000,7/12/2021
+T,Rob Harrison,it,10000,8/12/2021
+T,Barry Young,ee,3200,5/31/2021
+P
+C
+
+PT
+
+PN
+S,John Doe,CS,true
+S,Sunny Lin,cs,true
+S,Sunny Lin,ba,true
+P
+
+PT
+
+F,John Doe,CS
+F,John Doe,CS,1000
+F,John Doe,BA,-1000
+F,John Doe,BA,10001
+F,Jane Doe,CS,5432.10
+F,Rob Harrison,EE,5432.10
+F,John Doe,BA,5432.10
+F,John Doe,BA,5432.10
+
+P
+
+T,Joshua Patel,CS,2000,4/30/2021
+T,Joshua Patel,me,5000,4/19/2021
+T,Joshua Patel,me,5000,4/29/2021
+
+PT
+Q
+

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HW5</string>
+    <string name="phone_number">Your Phone Number</string>
+    <string name="flavor">Choice Your Flavor</string>
+    <string name="deluxe">Deluxe Pizza</string>
+    <string name="hawaiian">Hawaiian Pizza</string>
+    <string name="pepperoni">Pepperoni Pizza</string>
+    <string name="input_your_phone_number">input your phone number</string>
+    <string name="current_order">Current Order</string>
+    <string name="store_order">Store Order</string>
+    <string name="Ordered">Ordered</string>
+    <string name="Return">Return</string>
+    <string name="Place_Order">Place Order</string>
+    <string name="Remove_Pizza">Remove Pizza</string>
+    <string name="check_topping">Check your toppings</string>
+    <string name="price">Price</string>
+    <string name="size">Size</string>
+    <string name="topping01">Chicken</string>
+    <string name="topping02">Beef</string>
+    <string name="topping03">Ham</string>
+    <string name="topping04">Pineapple</string>
+    <string name="topping05">Black Olives</string>
+    <string name="topping06">Cheese</string>
+    <string name="topping07">Sausage</string>
+    <string name="topping08">Green Pepper</string>
+    <string name="topping09">Onion</string>
+    <string name="topping10">Pepperoni</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="tax">Tax</string>
+    <string name="current_total">Current Total</string>
+    <string name="Store_Order_View">Store Order View</string>
+    <string name="cancel_order">Cancel Order</string>
+</resources>

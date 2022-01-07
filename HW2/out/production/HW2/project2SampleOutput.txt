@@ -1,0 +1,250 @@
+Tuition Manager starts running.
+Command 'a ' not supported!
+Command 'ar' not supported!
+Command 'ae' not supported!
+Command 'arrr' not supported!
+
+
+Student roster is empty!
+Student roster is empty!
+Student roster is empty!
+Command 'aR' not supported!
+Student added.
+Missing data in command line.
+Credit hours missing.
+Minimum credit hours is 3.
+Student added.
+Credit hours exceed the maximum 24.
+Credit hours cannot be negative.
+Minimum credit hours is 3.
+Invalid credit hours.
+Student added.
+Student is already in the roster.
+Student is already in the roster.
+Student added.
+Student added.
+Minimum credit hours is 3.
+Minimum credit hours is 3.
+Minimum credit hours is 3.
+Minimum credit hours is 3.
+'xx' is not a valid major.
+Missing data in command line.
+Credit hours missing.
+Minimum credit hours is 3.
+Student is already in the roster.
+Credit hours exceed the maximum 24.
+Credit hours cannot be negative.
+Minimum credit hours is 3.
+Invalid credit hours.
+Student is already in the roster.
+Student is already in the roster.
+Student is already in the roster.
+Student is already in the roster.
+Student is already in the roster.
+Minimum credit hours is 3.
+Minimum credit hours is 3.
+Minimum credit hours is 3.
+Minimum credit hours is 3.
+'xx' is not a valid major.
+Student added.
+Student is already in the roster.
+Student added.
+Student added.
+* list of students in the roster **
+John Doe:EE:18 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:resident
+Jane Doe:CS:3 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:resident
+John Doe:CS:24 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:resident
+John Doe:BA:24 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:resident
+John Doe:IT:24 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:resident
+Rob Harrison:EE:12 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:IT:12 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:BA:12 credit hours:tuition due:0.00:last payment:0.00:payment date: --/--/--:non-resident
+* end of roster **
+Student removed from the roster.
+Student is not in the roster.
+Student removed from the roster.
+Student removed from the roster.
+Student is not in the roster.
+
+Missing data in command line.
+Missing data in command line.
+Not part of the tri-state area.
+Student added.
+Student added.
+Minimum credit hours is 3.
+Credit hours cannot be negative.
+Credit hours exceed the maximum 24.
+Student added.
+Student added.
+Student added.
+
+Credit hours missing.
+Student added.
+International students must enroll at least 12 credits.
+Minimum credit hours is 3.
+Credit hours cannot be negative.
+Credit hours exceed the maximum 24.
+Invalid credit hours.
+Student added.
+Student added.
+Student added.
+Calculation completed.
+* list of students in the roster **
+John Doe:EE:18 credit hours:tuition due:16,612.00:last payment:0.00:payment date: --/--/--:resident
+Jane Doe:CS:3 credit hours:tuition due:3,826.40:last payment:0.00:payment date: --/--/--:resident
+John Doe:BA:24 credit hours:tuition due:19,036.00:last payment:0.00:payment date: --/--/--:resident
+Rob Harrison:EE:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:IT:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+John Doe:IT:18 credit hours:tuition due:30,937.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+Rob Harrison:BA:9 credit hours:tuition due:11,308.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+Rob Harrison:ME:6 credit hours:tuition due:8,410.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Mary Johnson:BA:15 credit hours:tuition due:28,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Barry Young:EE:14 credit hours:tuition due:29,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+Joshua Patel:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Sunny Lin:CS:12 credit hours:tuition due:35,655.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Joshua Patel:ME:20 credit hours:tuition due:39,519.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Sunny Lin:BA:16 credit hours:tuition due:35,655.00:last payment:0.00:payment date: --/--/--:non-resident:international
+* end of roster **
+Calculation completed.
+* list of students in the roster **
+John Doe:EE:18 credit hours:tuition due:16,612.00:last payment:0.00:payment date: --/--/--:resident
+Jane Doe:CS:3 credit hours:tuition due:3,826.40:last payment:0.00:payment date: --/--/--:resident
+John Doe:BA:24 credit hours:tuition due:19,036.00:last payment:0.00:payment date: --/--/--:resident
+Rob Harrison:EE:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:IT:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+John Doe:IT:18 credit hours:tuition due:30,937.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+Rob Harrison:BA:9 credit hours:tuition due:11,308.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+Rob Harrison:ME:6 credit hours:tuition due:8,410.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Mary Johnson:BA:15 credit hours:tuition due:28,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Barry Young:EE:14 credit hours:tuition due:29,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+Joshua Patel:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Sunny Lin:CS:12 credit hours:tuition due:35,655.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Joshua Patel:ME:20 credit hours:tuition due:39,519.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Sunny Lin:BA:16 credit hours:tuition due:35,655.00:last payment:0.00:payment date: --/--/--:non-resident:international
+* end of roster **
+Payment amount missing.
+Invalid amount.
+Amount is greater than amount due.
+Invalid amount.
+Payment date invalid.
+Payment date invalid.
+Payment date invalid.
+Payment date invalid.
+Payment date invalid.
+Payment date invalid.
+Payment applied.
+Payment applied.
+Payment applied.
+Payment applied.
+Payment applied.
+Payment applied.
+Payment applied.
+* list of students in the roster **
+John Doe:EE:18 credit hours:tuition due:10,000.00:last payment:6,612.00:payment date: 8/30/2021:resident
+Jane Doe:CS:3 credit hours:tuition due:3,826.40:last payment:0.00:payment date: --/--/--:resident
+John Doe:BA:24 credit hours:tuition due:19,036.00:last payment:0.00:payment date: --/--/--:resident
+Rob Harrison:EE:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:IT:12 credit hours:tuition due:3,005.00:last payment:30,000.00:payment date: 8/12/2021:non-resident
+John Doe:IT:18 credit hours:tuition due:30,937.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+Rob Harrison:BA:9 credit hours:tuition due:0.00:last payment:11,308.40:payment date: 9/12/2021:non-resident(tri-state):NY
+Rob Harrison:ME:6 credit hours:tuition due:8,410.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Mary Johnson:BA:15 credit hours:tuition due:28,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Barry Young:EE:14 credit hours:tuition due:25,805.00:last payment:3,200.00:payment date: 5/31/2021:non-resident(tri-state):NY
+Joshua Patel:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Sunny Lin:CS:12 credit hours:tuition due:30,654.50:last payment:5,000.50:payment date: 2/1/2021:non-resident:international
+Joshua Patel:ME:20 credit hours:tuition due:39,519.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Sunny Lin:BA:16 credit hours:tuition due:35,655.00:last payment:0.00:payment date: --/--/--:non-resident:international
+* end of roster **
+Calculation completed.
+
+* list of students made payments ordered by payment date **
+Sunny Lin:CS:12 credit hours:tuition due:30,654.50:last payment:5,000.50:payment date: 2/1/2021:non-resident:international
+Barry Young:EE:14 credit hours:tuition due:25,805.00:last payment:3,200.00:payment date: 5/31/2021:non-resident(tri-state):NY
+Rob Harrison:IT:12 credit hours:tuition due:3,005.00:last payment:30,000.00:payment date: 8/12/2021:non-resident
+John Doe:EE:18 credit hours:tuition due:10,000.00:last payment:6,612.00:payment date: 8/30/2021:resident
+Rob Harrison:BA:9 credit hours:tuition due:0.00:last payment:11,308.40:payment date: 9/12/2021:non-resident(tri-state):NY
+* end of roster **
+
+* list of students ordered by name **
+Barry Young:EE:14 credit hours:tuition due:25,805.00:last payment:3,200.00:payment date: 5/31/2021:non-resident(tri-state):NY
+Jane Doe:CS:3 credit hours:tuition due:3,826.40:last payment:0.00:payment date: --/--/--:resident
+John Doe:IT:18 credit hours:tuition due:30,937.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+John Doe:BA:24 credit hours:tuition due:19,036.00:last payment:0.00:payment date: --/--/--:resident
+John Doe:EE:18 credit hours:tuition due:10,000.00:last payment:6,612.00:payment date: 8/30/2021:resident
+Joshua Patel:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Joshua Patel:ME:20 credit hours:tuition due:39,519.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Mary Johnson:BA:15 credit hours:tuition due:28,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Rob Harrison:EE:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:IT:12 credit hours:tuition due:3,005.00:last payment:30,000.00:payment date: 8/12/2021:non-resident
+Rob Harrison:ME:6 credit hours:tuition due:8,410.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Rob Harrison:BA:9 credit hours:tuition due:0.00:last payment:11,308.40:payment date: 9/12/2021:non-resident(tri-state):NY
+Sunny Lin:BA:16 credit hours:tuition due:35,655.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Sunny Lin:CS:12 credit hours:tuition due:30,654.50:last payment:5,000.50:payment date: 2/1/2021:non-resident:international
+* end of roster **
+Couldn't find the international student.
+Tuition updated.
+Tuition updated.
+* list of students in the roster **
+Barry Young:EE:14 credit hours:tuition due:25,805.00:last payment:3,200.00:payment date: 5/31/2021:non-resident(tri-state):NY
+Jane Doe:CS:3 credit hours:tuition due:3,826.40:last payment:0.00:payment date: --/--/--:resident
+John Doe:IT:18 credit hours:tuition due:30,937.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+John Doe:BA:24 credit hours:tuition due:19,036.00:last payment:0.00:payment date: --/--/--:resident
+John Doe:EE:18 credit hours:tuition due:10,000.00:last payment:6,612.00:payment date: 8/30/2021:resident
+Joshua Patel:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Joshua Patel:ME:20 credit hours:tuition due:39,519.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Mary Johnson:BA:15 credit hours:tuition due:28,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Rob Harrison:EE:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:IT:12 credit hours:tuition due:3,005.00:last payment:30,000.00:payment date: 8/12/2021:non-resident
+Rob Harrison:ME:6 credit hours:tuition due:8,410.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Rob Harrison:BA:9 credit hours:tuition due:0.00:last payment:11,308.40:payment date: 9/12/2021:non-resident(tri-state):NY
+Sunny Lin:BA:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Sunny Lin:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+* end of roster **
+
+* list of students made payments ordered by payment date **
+Barry Young:EE:14 credit hours:tuition due:25,805.00:last payment:3,200.00:payment date: 5/31/2021:non-resident(tri-state):NY
+Rob Harrison:IT:12 credit hours:tuition due:3,005.00:last payment:30,000.00:payment date: 8/12/2021:non-resident
+John Doe:EE:18 credit hours:tuition due:10,000.00:last payment:6,612.00:payment date: 8/30/2021:resident
+Rob Harrison:BA:9 credit hours:tuition due:0.00:last payment:11,308.40:payment date: 9/12/2021:non-resident(tri-state):NY
+* end of roster **
+
+Missing the amount.
+Student not in the roster.
+Invalid amount.
+Invalid amount.
+Parttime student doesn't qualify for the award.
+Not a resident student.
+Tuition updated.
+Awarded once already.
+
+* list of students in the roster **
+Jane Doe:CS:3 credit hours:tuition due:3,826.40:last payment:0.00:payment date: --/--/--:resident
+John Doe:IT:18 credit hours:tuition due:30,937.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):NY
+John Doe:BA:24 credit hours:tuition due:13,603.90:last payment:0.00:payment date: --/--/--:resident:financial aid $5,432.10
+Joshua Patel:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Joshua Patel:ME:20 credit hours:tuition due:39,519.00:last payment:0.00:payment date: --/--/--:non-resident:international
+Mary Johnson:BA:15 credit hours:tuition due:28,005.00:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Rob Harrison:EE:12 credit hours:tuition due:33,005.00:last payment:0.00:payment date: --/--/--:non-resident
+Rob Harrison:ME:6 credit hours:tuition due:8,410.40:last payment:0.00:payment date: --/--/--:non-resident(tri-state):CT
+Sunny Lin:BA:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Sunny Lin:CS:12 credit hours:tuition due:5,918.00:last payment:0.00:payment date: --/--/--:non-resident:international:study abroad
+Barry Young:EE:14 credit hours:tuition due:25,805.00:last payment:3,200.00:payment date: 5/31/2021:non-resident(tri-state):NY
+Rob Harrison:IT:12 credit hours:tuition due:3,005.00:last payment:30,000.00:payment date: 8/12/2021:non-resident
+John Doe:EE:18 credit hours:tuition due:10,000.00:last payment:6,612.00:payment date: 8/30/2021:resident
+Rob Harrison:BA:9 credit hours:tuition due:0.00:last payment:11,308.40:payment date: 9/12/2021:non-resident(tri-state):NY
+* end of roster **
+
+Payment applied.
+Payment applied.
+Payment applied.
+
+* list of students made payments ordered by payment date **
+Joshua Patel:ME:20 credit hours:tuition due:29,519.00:last payment:10,000.00:payment date: 4/29/2021:non-resident:international
+Joshua Patel:CS:12 credit hours:tuition due:3,918.00:last payment:2,000.00:payment date: 4/30/2021:non-resident:international:study abroad
+Barry Young:EE:14 credit hours:tuition due:25,805.00:last payment:3,200.00:payment date: 5/31/2021:non-resident(tri-state):NY
+Rob Harrison:IT:12 credit hours:tuition due:3,005.00:last payment:30,000.00:payment date: 8/12/2021:non-resident
+John Doe:EE:18 credit hours:tuition due:10,000.00:last payment:6,612.00:payment date: 8/30/2021:resident
+Rob Harrison:BA:9 credit hours:tuition due:0.00:last payment:11,308.40:payment date: 9/12/2021:non-resident(tri-state):NY
+* end of roster **
+
+Tuition Manager terminated.

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hw3.Controller">
+   <top>
+      <TabPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab text="Student Profiles">
+            <content>
+              <AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0">
+                     <children>
+                        <Label layoutX="61.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="55.0" text="Name" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="15.0" />
+                        <Label layoutX="61.0" layoutY="49.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="55.0" text="Major" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="43.0" />
+                        <Label layoutX="60.0" layoutY="84.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="55.0" text="Status" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="71.0" />
+                        <Label layoutX="22.0" layoutY="168.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="80.0" text="Credit Hours" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="155.0" />
+                        <TextField fx:id="nameInProfile" layoutX="116.0" layoutY="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" AnchorPane.topAnchor="15.0" />
+                        <TextField fx:id="creditHours" layoutX="116.0" layoutY="174.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="155.0" />
+                        <RadioButton layoutX="115.0" layoutY="43.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="40.0" text="CS" AnchorPane.leftAnchor="115.0">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="major" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton layoutX="155.0" layoutY="43.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="40.0" text="EE" toggleGroup="$major" AnchorPane.leftAnchor="155.0" />
+                        <RadioButton layoutX="235.0" layoutY="43.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="40.0" text="IT" toggleGroup="$major" AnchorPane.leftAnchor="240.0" />
+                        <RadioButton layoutX="275.0" layoutY="43.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="40.0" text="BA" toggleGroup="$major" AnchorPane.leftAnchor="280.0" />
+                        <RadioButton layoutX="195.0" layoutY="43.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="40.0" text="ME" toggleGroup="$major" AnchorPane.leftAnchor="195.0" />
+                        <RadioButton fx:id="radioButtonRs" layoutX="115.0" layoutY="94.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="100.0" text="Resident" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="71.0">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="status" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton fx:id="radioButtonNrs" layoutX="215.0" layoutY="94.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="100.0" text="Non Resident" toggleGroup="$status" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="71.0" />
+                        <RadioButton fx:id="radioButtonTri" disable="true" layoutX="115.0" layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="100.0" text="Tristate" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="99.0">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="nonresident" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton fx:id="cityNY" disable="true" layoutX="215.0" layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="100.0" text="New  York" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="99.0">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="city" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton fx:id="cityCT" disable="true" layoutX="315.0" layoutY="119.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="100.0" text="Connecticut" toggleGroup="$city" AnchorPane.leftAnchor="315.0" AnchorPane.topAnchor="99.0" />
+                        <RadioButton fx:id="radioButtonIntl" disable="true" layoutX="115.0" layoutY="143.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="100.0" text="International" toggleGroup="$nonresident" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="127.0" />
+                        <CheckBox fx:id="checkButtonStudyaboard" disable="true" layoutX="216.0" layoutY="143.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Study Aboard" AnchorPane.leftAnchor="215.0" AnchorPane.topAnchor="127.0" />
+                        <Button fx:id="addButton" layoutX="116.0" layoutY="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addStudent" prefHeight="25.0" prefWidth="120.0" text="Add Student" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="190.0" />
+                        <Button fx:id="removeButton" layoutX="228.0" layoutY="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#removeStudent" prefHeight="25.0" prefWidth="120.0" text="Remove Student" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="190.0" />
+                        <Button fx:id="TuitionButton" layoutX="116.0" layoutY="264.0" mnemonicParsing="false" onAction="#calculateTuition" prefHeight="25.0" text="Tuition Due" AnchorPane.topAnchor="225.0" />
+                        <Label layoutX="216.0" layoutY="268.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="10.0" text="\$" AnchorPane.topAnchor="225.0" />
+                        <TextField fx:id="outputTuition" disable="true" layoutX="223.0" layoutY="226.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="160.0" promptText="0.00" AnchorPane.topAnchor="225.0" />
+                        <Button layoutX="396.0" layoutY="191.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#clearGUI" prefHeight="25.0" text="Clear Interface" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Payments/Financial Aid">
+            <content>
+              <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0">
+                     <children>
+                        <Label layoutX="72.0" layoutY="30.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Student Name" AnchorPane.rightAnchor="420.0" AnchorPane.topAnchor="30.0" />
+                        <Label layoutX="72.0" layoutY="63.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Major" AnchorPane.rightAnchor="420.0" AnchorPane.topAnchor="70.0" />
+                        <Label layoutX="72.0" layoutY="105.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Payment Amount   $" AnchorPane.rightAnchor="420.0" AnchorPane.topAnchor="110.0" />
+                        <Label layoutX="72.0" layoutY="143.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Payment Date" AnchorPane.rightAnchor="420.0" AnchorPane.topAnchor="150.0" />
+                        <Label layoutX="72.0" layoutY="176.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="25.0" text="Financial Aid Amount   $" AnchorPane.rightAnchor="420.0" AnchorPane.topAnchor="190.0" />
+                        <TextField fx:id="nameInPayment" layoutX="193.0" layoutY="31.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="30.0" />
+                        <TextField fx:id="paymentAmount" layoutX="193.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="0.00" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="110.0" />
+                        <TextField fx:id="fAA" layoutX="190.0" layoutY="190.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="0.00" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="190.0" />
+                        <DatePicker fx:id="date" layoutX="183.0" layoutY="151.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="150.0" />
+                        <Button layoutX="420.0" layoutY="151.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#setPayment" prefHeight="25.0" prefWidth="100.0" text="Pay" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="150.0" />
+                        <Button layoutX="420.0" layoutY="191.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#setFinancial" prefHeight="25.0" prefWidth="100.0" text="Set" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="190.0" />
+                        <RadioButton layoutX="190.0" layoutY="75.0" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="45.0" text="CS" AnchorPane.leftAnchor="190.0" AnchorPane.topAnchor="70.0">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="minPay" />
+                           </toggleGroup></RadioButton>
+                        <RadioButton layoutX="235.0" layoutY="75.0" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="45.0" text="EE" toggleGroup="$minPay" AnchorPane.leftAnchor="235.0" AnchorPane.topAnchor="70.0" />
+                        <RadioButton layoutX="278.0" layoutY="75.0" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="45.0" text="ME" toggleGroup="$minPay" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="70.0" />
+                        <RadioButton layoutX="323.0" layoutY="75.0" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="45.0" text="IT" toggleGroup="$minPay" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="70.0" />
+                        <RadioButton layoutX="368.0" layoutY="75.0" mnemonicParsing="false" onAction="#select" prefHeight="25.0" prefWidth="45.0" text="BA" toggleGroup="$minPay" AnchorPane.leftAnchor="370.0" AnchorPane.topAnchor="70.0" />
+                        <Button layoutX="420.0" layoutY="232.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#clearGUI" prefHeight="25.0" text="Clean Interface" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Process Tuition">
+              <content>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="600.0">
+                     <children>
+                        <MenuBar layoutX="14.0" layoutY="14.0">
+                          <menus>
+                            <Menu mnemonicParsing="false" text="Tuition">
+                              <items>
+                                <MenuItem mnemonicParsing="false" onAction="#calculateAll" text="Calculate tuitionn due" />
+                              </items>
+                            </Menu>
+                            <Menu mnemonicParsing="false" text="Print">
+                              <items>
+                                    <MenuItem mnemonicParsing="false" onAction="#print" text="Roster" />
+                                <MenuItem mnemonicParsing="false" onAction="#printByName" text="Roster by name" />
+                                    <MenuItem mnemonicParsing="false" onAction="#printByDate" text="Roster who made payment by date" />
+                              </items>
+                            </Menu>
+                            <Menu mnemonicParsing="false" text="Help">
+                              <items>
+                                <MenuItem mnemonicParsing="false" text="About" />
+                              </items>
+                            </Menu>
+                          </menus>
+                        </MenuBar>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </top>
+   <bottom>
+      <TextArea fx:id="ouputBoard" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="560.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" top="20.0" />
+         </BorderPane.margin>
+      </TextArea>
+   </bottom>
+</BorderPane>

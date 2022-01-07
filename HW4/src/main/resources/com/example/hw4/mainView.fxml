@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hw4.mainViewController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="Deluxe" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#orderView" prefHeight="160.0" prefWidth="160.0" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="100.0">
+               <graphic>
+                  <ImageView fx:id="imageDeluxe" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@deluxe.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="Pepperoni" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#orderView" prefHeight="160.0" prefWidth="160.0" textAlignment="CENTER" AnchorPane.leftAnchor="220.0" AnchorPane.topAnchor="100.0">
+               <graphic>
+                  <ImageView fx:id="imagePepperoni" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@hawaiian.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="Hawaiian" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#orderView" prefHeight="160.0" prefWidth="160.0" textAlignment="CENTER" AnchorPane.leftAnchor="420.0" AnchorPane.topAnchor="100.0">
+               <graphic>
+                  <ImageView fx:id="imageHawaiian" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pepperoni.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <TextField fx:id="phonenumber" prefHeight="25.0" prefWidth="250.0" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="50.0" />
+            <Label layoutX="94.0" layoutY="55.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="155.0" text="Custermer Phone Number" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="50.0" />
+            <Button fx:id="storeorder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#storeView" prefHeight="25.0" prefWidth="100.0" text="Store Orders" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="330.0" />
+            <Button fx:id="currentorder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#detailView" prefHeight="25.0" prefWidth="100.0" text="Current Order" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="330.0" />
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="60.0" text="Deluxe" textAlignment="CENTER" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="265.0" />
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="60.0" text="Pepperoni" AnchorPane.leftAnchor="270.0" AnchorPane.topAnchor="265.0" />
+            <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="60.0" text="Hawaiian" AnchorPane.leftAnchor="470.0" AnchorPane.topAnchor="265.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
